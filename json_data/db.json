@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "PPXOC MILKYWAY DRESS IN...",
+      "image":"images/bag.jpg"
+     
+      
+      
+    },
+    {
+      "id":2,
+      "title":"PPXOC MILKYWAY DRESS IN...",
+      "image":"images/2 front.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/belt.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/cap.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/bagback.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/2 hover.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/handbag.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/bagfolded.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/bag2.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/pocket.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/pouch.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/slingbag.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/belt.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/2 front.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/cap.jpg"
+    },
+   
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/bag2.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/bagback.jpg"
+    },
+    {
+      "id":2,
+      "title":"PRODUCT NAME",
+      "image":"images/slingbag.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

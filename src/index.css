@@ -11,3 +11,126 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  font-family: "Lato", sans-serif;
+}
+/* 
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;}
+ */
+ .sidebar {
+  position:relative;
+  top: 0;
+  bottom: 0;
+  left: -220px; /* Initially, set the sidebar to be hidden on the right */
+  width: 220px;
+  overflow-y: auto;/* On small
+  transition: right 0.5s; /* Use transition for smooth animation */
+}
+
+.sidebar.expanded {
+  left: 0; /* Expand the sidebar to the left */
+}
+
+.footer{
+  margin: -0.2%;
+ 
+  /* height: 800px; */
+  width:100%;
+  background-color: black;
+}
+.footer 
+.email{
+  border-radius: 2px solid black;
+  width: 260px;
+}
+
+.info_block{
+  margin-top: 100px;
+  color: white;
+line-height: 30px;
+  
+}
+.info_block h5{
+  font-weight: bold;
+}
+.transaction_detail{
+  font-size: 12px;
+}
+.info_block1{
+margin-left: 100px;
+
+}
+.info_block ul{
+  list-style-type: none;
+  line-height: 40px;
+}
+.block2{
+  margin-top: 100px;
+}
+.block2 .btn1 button{
+ border-radius: 50%;
+}
+.btn2{
+  display:flex;
+
+}
+.btn2 img{
+height: 25px;
+}
+.btn2 .img2{
+ height:35px;
+}
