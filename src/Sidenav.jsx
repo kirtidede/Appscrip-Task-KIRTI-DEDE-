@@ -22,18 +22,20 @@ export default function Sidenav() {
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded })
 
   return (
-    <div className='col-md-12 col-lg-12 col-sm-12' ><hr />
-      <button className='btn  btn-toggle py-3'
+    <div className='col-md-12 col-lg-12 col-sm-12 fixed1' ><hr />
+      <button className='btn  btn-toggle py-3 text-secondary'
         {...getToggleProps({
           onClick: () => setExpanded((prevExpanded) => !prevExpanded),
         })}
       >
-        {isExpanded ? 'Hide Filter' : 'Show Filter'}
+        {isExpanded ? 'Hide Filter' : 'Show Filter' }
       </button><hr />
       <section {...getCollapseProps()} className={`sidebar ${isExpanded ? 'expanded' : ''}`}>
-        <nav className="sidenav" style={{ width: '220px' }}>
+        <nav className="sidenav" >
 
-          <div class="offcanvas-body " >
+         
+          <div class="offcanvas-body  " >
+         
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
               <li className='nav-item fw-bold'><input type='checkbox' className='largercheckbox' style={{ height: '15px', width: '15px' }} />  CUSTOMIZABLE</li><hr />
 

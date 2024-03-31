@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function Footer1() {
     return (
-    <>
+        <>
             <div className='container-fluid p-0 bg-dark'>
                 <div className='col-md-12 col-lg-12 col-sm-12 p-0'>
                     <div className='row p-0'>
                         <div className='footer ' >
                             <div className='col-md-12 col-lg-12 col-sm-12'>
                                 <div className='row d-flex'>
-                                    <div className='col-md-12 col-lg-6 col-sm-6 '>
+                                    <div className='col-md-12 col-lg-6 col-sm-12 '>
                                         <div className='row info_block text-center px-3'>
                                             <h5 className='text-center' >BE THE FIRST TO KNOW</h5>
                                             <h6 className='text-center'>sign up for updates from metta muse</h6>
@@ -17,12 +17,12 @@ export default function Footer1() {
                                             <form className='d-flex mt-3 ' style={{ marginLeft: '100px' }}>
                                                 <input type="email" placeholder=" Enter Your email... " className='p-2 email form-control' /><button className='btn btn-outline-dark  px-4 py-2 mx-1'>SUBSCRIBE</button>
                                             </form>
-                                        
+
                                         </div>
                                     </div>
 
 
-                                    <div className='col-md-12 col-lg-6 col-sm-6 px-3'>
+                                    <div className='col-md-12 col-lg-6 col-sm-12 px-3'>
                                         <div className='row info_block text-center'>
                                             <h5 className='py-1'>CONTACT US</h5>
                                             <h6 className=''>+44 221 133 2343</h6>
@@ -36,42 +36,83 @@ export default function Footer1() {
 
                             </div>
 
-<hr className='text-secondary'/>
+                            <hr className='text-secondary' />
                             <div className='col-md-12 col-lg-12 col-sm-12'>
                                 <div className='row'>
 
-                                    <div className='col-md-12 col-lg-6 col-sm-6 '>
-                                        <div className='row info_block  '>
+                                    <div className='col-md-12 col-lg-12 col-sm-12 '>
+                                        <div className='row info_block  text-center'>
 
 
-                                            <div className='col-md-12 col-lg-12 col-sm-12 block1'>
-                                                <div className='row info_block1'>
-                                                    <div className='col-md-6 col-sm-6 col-lg-6 '>
-                                                        <h4 className='fw-bold'> metta muse</h4>
-                                                        <ul>
-                                                            <li >About Us </li>
-                                                            <li>Stories</li>
-                                                            <li>Artisans</li>
-                                                            <li>Boutique</li>
-                                                            <li>Contact us</li>
-                                                            <li>EU Compliences Docs</li>
-                                                        </ul>
-                                                    </div>
+                                            <div className='col-md-12 col-lg-6 col-sm-12 '>
+                                                <div className='row'>
+                                                    <div className='col-md-12 col-lg-12 col-sm-12 block1'>
+                                                        <div className='row  info_block1'>
+                                                            <div className='col-md-6 col-sm-12 col-lg-6 p-1 '>
+                                                                <h4 className='fw-bold'> metta muse</h4>
+                                                                <ul>
+                                                                    <li >About Us </li>
+                                                                    <li>Stories</li>
+                                                                    <li>Artisans</li>
+                                                                    <li>Boutique</li>
+                                                                    <li>Contact us</li>
+                                                                    <li>EU Compliences Docs</li>
+                                                                </ul>
+                                                            </div>
 
 
-                                                    <div className='col-md-12 col-sm-6 col-lg-6  '>
-                                                        <h4 className='fw-bold'> QUICK LINKS</h4>
-                                                        <ul>
-                                                            <li >Order & Shipping </li>
-                                                            <li>Join/Login as a Seller</li>
-                                                            <li>Payment & Refunds</li>
-                                                            <li>FAQs</li>
-                                                            <li>Privacy Policy</li>
-                                                            <li>Terms & Condition</li>
-                                                        </ul>
-                                                    </div>
+                                                            <div className='col-md-6 col-sm-12 col-lg-6 p-1 '>
+                                                                <h4 className='fw-bold'> QUICK LINKS</h4>
+                                                                <ul>
+                                                                    <li >Order & Shipping </li>
+                                                                    <li>Join/Login as a Seller</li>
+                                                                    <li>Payment & Refunds</li>
+                                                                    <li>FAQs</li>
+                                                                    <li>Privacy Policy</li>
+                                                                    <li>Terms & Condition</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        </div>
 
                                                 </div>
+                                            </div>
+
+
+                                            <div className='col-md-12 col-lg-6 col-sm-12  block2'>
+                                                <div className='row text-center'>
+                                                    <div>
+                                                        <h4 className='fw-bold text-light '>
+                                                            FOLLW US
+                                                        </h4>
+                                                        <span className='btn1 '>
+                                                            <button className='btn btn-outline-light mx-2'>
+                                                                <i class="bi bi-instagram py-1 "></i>
+                                                            </button>
+                                                            <button className='btn btn-outline-light mx-2'>
+                                                                <i class="bi bi-linkedin py-1"></i>
+                                                            </button>
+                                                        </span>
+                                                        <div className='text-center'>
+                                                            <h5 className='text-light fw-bold pt-5'>metta muse ACCEPTS</h5>
+                                                            <span className='btn2 ' style={{ marginLeft: '150px' }}><button className='btn bg-light mx-2'>
+                                                                <img src='images/gpay.jpg' className='img-fluid rounded' />
+                                                            </button>
+                                                                <button className='btn bg-light mx-2'>
+                                                                    <img src='images/mastercard.png' className='img-fluid rounded' />
+                                                                </button>
+
+                                                                <button className='btn bg-light mx-2 '>
+                                                                    <img src='images/applepay.png' height={5} width={70} className='img-fluid rounded' />
+                                                                </button>
+                                                                <button className='btn bg-white mx-2'>
+                                                                    <img src='images/opay.png' style={{ height: '40px' }} width={70} className='img-fluid rounded' />
+                                                                </button>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
                                             </div>
 
 
@@ -79,7 +120,7 @@ export default function Footer1() {
 
                                         </div>
                                     </div>
-                                    <div className='col-md-12 col-lg-6 col-sm-6  block2'>
+                                    {/* <div className='col-md-12 col-lg-12 col-sm-12  block2'>
                                          <div className='row text-center'>
                                             <div>
                                                 <h4 className='fw-bold text-light '>
@@ -113,7 +154,7 @@ export default function Footer1() {
                                             </div>
                                          </div>
 
-                                    </div>
+                                    </div> */}
 
 
 
@@ -131,9 +172,9 @@ export default function Footer1() {
                     </div>
 
 
-            </div>  
-            </div>      
-            </>
-            )
-                
+                </div>
+            </div>
+        </>
+    )
+
 }

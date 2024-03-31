@@ -18,22 +18,24 @@ function App() {
       <div className='container-fluid'>
         <div className='col-md-12 col-sm-12 col-lg-12'>
           <div className='row bg-dark text-center'>
-            <span className='d-flex '>
-              <h6 className='text-danger mx-5 px-5'>lorem ipsum dolor&nbsp;&nbsp;
+            <span className='d-flex position-relative '>
+              <h6 className='text-danger '>lorem ipsum dolor&nbsp;&nbsp;
 
 
 
-              </h6> <h6 className='text-danger mx-5 px-5'>lorem ipsum dolor
+              </h6>
+               <h6 className='text-danger position-absolute top-0 start-50 '>lorem ipsum dolor
 
 
 
-              </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </h6>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             
+              <h6 className='text-danger  position-absolute top-0 end-0'  >lorem ipsum dolor
 
-              <h6 className='text-danger mx-5 px-3'>lorem ipsum dolor
 
 
-
-              </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </h6>
            
             </span>
 
@@ -42,56 +44,44 @@ function App() {
         </div>
       </div>
 
-      <div className='col-md-12 col-sm-12 col-lg-12'>
-        <div className='row'>
+   
 
 
 
-
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <div className='col-md-12 col-sm-12 col-lg-12'><div className='row d-flex'>
-                <div className='co-md-3 col-sm-12 col-lg-3 '>
-                  <a class="navbar-brand" href="#">   <img src='images/logo1.png' className='mx-5' height={100} alt='logo' /></a>
-                  <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+{/* ****************************************************************************** */}
+          
+            <div class="container nav1 p-0 ">
+            <div className='row '>
+              <div className='col-md-12 col-sm-12 col-lg-12 p-0 navbar-container'>
+                 <div className='row'>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+                <div className='co-md-3 col-sm-3 col-lg-3  '>
+                  <a class="navbar-brand" href="#">   <img src='images/logo1.png' className='mx-5 ' height={100} alt='logo' /></a>
+                  <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"> <i class="bi bi-list text-light py-3"></i></span>
                   </button>
-
+                  
                 </div>
 
-                <div className='col-md-7 col-sm-12 col-lg-7 fs-1 pt-4  fw-bold text-center px-5'>
-                <h1 className='mx-2 px-3 fw-bold'>LOGO</h1> 
-                   <br/><br/>
+                <div className='col-md-6 col-sm-6 col-lg-6 fs-1 pt-4  fw-bold text-center '>
+                <h1 className='mx-2 fw-bold py-3'>LOGO</h1> 
+                  
 
-                <nav className='text-center' >
-                     <center><span className='d-flex text-center ' >
-                     
-                     <h4 className='mx-4 fw-bold'> Shop</h4> 
-                    <h4 className='mx-4 fw-bold'> Skill</h4>
-                    <h4 className='mx-4 fw-bold'> Skill</h4>
-                     <h4 className='mx-4 fw-bold'>Stories</h4>
-                    <h4 className='mx-4 fw-bold'> About</h4>
-                     <h4 className='mx-4 fw-bold'>Contact Us</h4> 
-                      
-
-                      
-                      </span></center>
-
-                       
-                     </nav>
+                
                 </div>
 
-                <div className='col-md-2 col-sm-12 col-lg-2 fs-1  text-center '>
-                  <span className='d-flex fs-3'>
-                    <i class="bi bi-search mx-1"></i>
+
+                <div className='col-md-3 col-sm-3 col-lg-3 fs-1  text-center  '>
+                  <span className='d-flex fs-3 py-4'>
+                    <i class="bi bi-search mx-2"></i>
                     <i class="bi bi-heart mx-1" ></i>
-                    <i class="bi bi-bag mx-1"></i>
+                    <i class="bi bi-bag mx-2"></i>
                     <i class="bi bi-person mx-1"></i>
                   </span>
 
-                </div></div>
+                </div> </nav></div>
 
-              </div>
+              </div></div>
               <br/><br/>
               
               
@@ -99,9 +89,52 @@ function App() {
 
 
 
-          </nav>
-        </div>
-      </div>
+         
+{/* ************************************************************************* */}
+
+          <div className='container '>
+            <div className='col-md-12 col-lg-12 col-sm-12 '>
+              <div className='row'><center>
+              <nav class="navbar navbar-expand-lg bg-body-tertiary  navbar_option " >
+  
+   
+    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    <div class="collapse nav_bar navbar-collapse " id="navbarSupportedContent">&nbsp; &nbsp;&nbsp; &nbsp;
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold fs-4 ">
+        <li class="nav-item ms-5">
+          <a class="nav-link active" aria-current="page" href="#">SHOP</a>
+        </li>
+        <li class="nav-item ms-5">
+          <a class="nav-link active" href="#">SKILL</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link ms-5" href="#" aria-disabled="true">STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-5" aria-disabled="true">ABOUT </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-5" aria-disabled="true">CONTACT US </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-5" aria-disabled="true">REVIEW</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+ 
+ 
+</nav></center>
+
+
+              </div>
+            </div>
+          </div>
+       
     
 <hr/>
 
@@ -121,7 +154,7 @@ function App() {
           <div className='row d-flex'>
 
 
-            <div className='col-md-2 col-lg-2 col-sm-2'>
+            <div className='col-md-12 col-lg-3 col-sm-12  '>
 
               <Sidenav />
              
@@ -131,7 +164,7 @@ function App() {
 
 
 
-            <div className='col-md-10 col-lg-10 col-sm-10'>
+            <div className='col-md-12 col-lg-9 col-sm-12'>
               <Article />
 
 
