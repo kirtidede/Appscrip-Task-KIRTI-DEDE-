@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import { Sidebar } from './Sidebar';
+
 import Article from './Article';
 import React, { useState } from 'react';
 import Sidenav from './Sidenav';
-import Demo from './Demo';
+
 import Footer1 from './Footer1';
 
 
@@ -124,8 +124,7 @@ function App() {
             <div className='col-md-2 col-lg-2 col-sm-2'>
 
               <Sidenav />
-              {/* <Sidebar/> */}
-              {/* <Demo/> */}
+             
 
 
             </div>
